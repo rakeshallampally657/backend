@@ -21,7 +21,6 @@ jobs:
 
       - name: Make Maven Wrapper Executable
         run: |
-          cd backend
           chmod +x ./mvnw
 
       - name: Build with Maven
